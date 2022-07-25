@@ -1,3 +1,32 @@
 #categories .card{
     background: linear-gradient(90deg, rgba(233,151,18,1)55%, rgba(241,7,7,1) 100%);
 }
+
+.btn-right-icon{
+    display: inline-block;
+}
+.btn-right-icon i{
+    display: inline-block;
+    margin-left: 5px;
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shoes .card-body h1{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#bags .card-body h1{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#shoes .card-body .price{
+    font-size:22px;
+    font-weight: bold;
+}
+#bags .card-body .price{
+    font-size:22px;
+    font-weight: bold;
+}
