@@ -1,3 +1,9 @@
+#banner-slider {
+    margin-top:57.67px;
+}
+#subscription.container-fluid{ 
+    background-color:rgba(251, 165, 5, 0.89) !important;
+}
 #categories .card{
     background: linear-gradient(90deg, rgba(233,151,18,1)55%, rgba(241,7,7,1) 100%);
 }
@@ -29,4 +35,84 @@ button{
 #bags .card-body .price{
     font-size:22px;
     font-weight: bold;
+}
+
+.subscription{
+    background-color: ;
+}
+.subscription h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.subscription h3 span{
+    display: inline-block;
+    margin-right: 10px;
+}
+.subscription h3 span img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+form a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#subscription-btn{
+    color: white;
+    font-weight: bold;
+    padding: 6px 8px;
+    font-size: 1rem;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+#subcription-field{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#subscription .all-icon span{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: aliceblue;
+    padding:5px;
+    text-align: center;
+    border-radius: 50%;
+   
+}
+form #subcription-field{
+    width: 60%;
+    display:block;
+    padding: 10px;
+}
+
+form #subscription-btn{
+    color: rgb(255, 255, 255);
+    width: 40%;
+    display:block;
+    padding: 10px;
+}
+#subscription .all-icon i{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+       
+}
+
+@media (max-width:575.98px){
+ 
+}
+@media(min-width:576px) and (max-width:767.98px){
+   
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+  
+} 
+@media(min-width:992px) and (max-width:1199.98px){
+   
 }
